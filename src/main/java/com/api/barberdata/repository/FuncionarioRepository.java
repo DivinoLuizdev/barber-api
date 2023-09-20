@@ -1,7 +1,9 @@
 package com.api.barberdata.repository;
 
-import com.api.barberdata.model.Funcionario;
 import org.springframework.data.jpa.repository.Query;
+
+import com.api.barberdata.domain.Funcionario;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface FuncionarioRepository extends JpaRepository<Funcionario, Long> {

@@ -1,4 +1,4 @@
-package com.api.barberdata.model;
+package com.api.barberdata.domain;
 
 import java.time.LocalDateTime;
 

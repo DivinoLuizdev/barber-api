@@ -4,14 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.api.barberdata.model.ContasPaga;
+import com.api.barberdata.domain.ContasPaga;
 import com.api.barberdata.service.interfaces.GenericService;
 
 /**
  * Controlador responsável por lidar com operações relacionadas a ContasPaga.
  */
 @RestController
-@RequestMapping("/api/contaspaga")
+@RequestMapping("/api/contapagar")
 @CrossOrigin(origins = "*")
 public class ContasPagaController {
 

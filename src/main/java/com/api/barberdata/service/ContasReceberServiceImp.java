@@ -5,8 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.api.barberdata.model.ContasReceber;
-
+import com.api.barberdata.domain.ContasReceber;
 import com.api.barberdata.repository.ContasReceberRepository;
 
 import com.api.barberdata.service.interfaces.GenericService;

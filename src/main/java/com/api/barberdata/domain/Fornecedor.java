@@ -1,4 +1,4 @@
-package com.api.barberdata.model;
+package com.api.barberdata.domain;
 
 import org.hibernate.validator.constraints.br.CNPJ;
 import jakarta.persistence.Column;

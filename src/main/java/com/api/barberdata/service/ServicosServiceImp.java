@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.api.barberdata.model.Servicos;
+import com.api.barberdata.domain.Servicos;
 import com.api.barberdata.repository.ServicosRepository;
 import com.api.barberdata.service.interfaces.GenericService;
  /**

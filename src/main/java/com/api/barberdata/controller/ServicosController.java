@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.api.barberdata.model.Servicos;
+import com.api.barberdata.domain.Servicos;
 import com.api.barberdata.service.interfaces.GenericService;
 
 /**

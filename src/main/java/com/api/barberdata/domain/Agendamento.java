@@ -1,7 +1,8 @@
-package com.api.barberdata.model;
+package com.api.barberdata.domain;
 
 import java.util.Date;
-import com.api.barberdata.enums.StatusAgendamento;
+
+import com.api.barberdata.domain.enums.StatusAgendamento;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore; 
 import jakarta.persistence.CascadeType;

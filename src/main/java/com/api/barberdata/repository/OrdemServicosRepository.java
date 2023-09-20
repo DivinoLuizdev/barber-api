@@ -1,7 +1,8 @@
 package com.api.barberdata.repository;
 
-import com.api.barberdata.model.OrdemServicos;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.api.barberdata.domain.OrdemServicos;
 
  
 

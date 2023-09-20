@@ -1,4 +1,4 @@
-package com.api.barberdata.model;
+package com.api.barberdata.domain;
 
 import java.sql.Date;
 import java.util.List;
@@ -57,11 +57,11 @@ public class ContasPaga {
    
  
    
-    @ManyToOne(fetch = FetchType.EAGER, optional = false, targetEntity =  com.api.barberdata.model.Fornecedor.class)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false, targetEntity =  com.api.barberdata.domain.Fornecedor.class)
     @JoinColumn(name = " ID_FORNECEDOR_FK", referencedColumnName = "ID_FORNECEDOR", nullable = false)
     private List<Fornecedor> fornecedores;
     
-    @ManyToOne(fetch = FetchType.EAGER, optional = false, targetEntity =  com.api.barberdata.model.Funcionario.class)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false, targetEntity =  com.api.barberdata.domain.Funcionario.class)
     @JoinColumn(name = " ID_FUNCIONARIO_FK", referencedColumnName = "ID_FUNCIONARIO", nullable = false)
      private List<Funcionario> funcionario ;
      

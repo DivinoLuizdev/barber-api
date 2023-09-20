@@ -4,14 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.api.barberdata.model.Fornecedor;
+import com.api.barberdata.domain.Fornecedor;
 import com.api.barberdata.service.interfaces.GenericService;
 
 /**
  * Controlador responsável por lidar com operações relacionadas a Fornecedores.
  */
 @RestController
-@RequestMapping("/api/fornecedores")
+@RequestMapping("/api/fornecedor")
 @CrossOrigin(origins = "*")
 public class FornecedorController {
 
