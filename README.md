@@ -27,19 +27,7 @@ Siga as etapas abaixo para configurar e executar a BarberData API:
 ```bash
 git clone https://github.com/seu-usuario/barberdata-api.git
 ```
-## Navegue até o diretório do projeto:
-
-```bash
-cd barberdata-api
-```
-## Execute a construção (build) da aplicação usando o Maven:
-```bash
-mvn clean install
-```
-## Inicie a aplicação executando o seguinte comando:
-```bash
-java -jar target/barberdata-api.jar
-```
+ 
 A BarberData API estará agora disponível em http://localhost:8080.
 
 ## Documentação da API
