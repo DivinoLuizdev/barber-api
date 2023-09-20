@@ -1,0 +1,49 @@
+# Arquivos de configuração do IDE (VSCode)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Dependências do Node.js
+node_modules/
+
+# Arquivos do VSIX
+*.vsix
+
+# Arquivos específicos do macOS
+.DS_Store
+
+# Arquivos e diretórios gerados pelo servidor
+out/
+server/
+
+# Pasta onde o Java Runtime Environment (JRE) pode ser instalado
+jre/
+
+# Pasta onde as dependências do projeto Java Lombok podem ser instaladas
+lombok/
+
+# Arquivos binários
+bin/
+
+# Configurações do Eclipse
+.settings/
+.classpath
+.project
+
+# Arquivos de configuração do Gradle
+.gradle/
+build/
+
+# Arquivos de configuração do Maven
+target/
+dist/
+
+# Pasta de resultados de testes
+test-tem/
+target/test-classes/
+
+# Pastas específicas de teste para o VSCode
+test/resources/projects/**/.vscode
+test/resources/projects/maven/salut/testGradle
